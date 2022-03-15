@@ -4,18 +4,19 @@
  * Description: It prints the alphabet
  * Return: Nothing.
  */
+
 void print_alphabet_x10(void)
 {
 	char i;
-	int r = 0;
+	int p = 0;
 
-	while (r <= 9)
+	while (p <= 9)
 	{
-
-	for (i = 97; i <= 122; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+		for (i = 97; i <= 122; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+		p++;
 	}
 }
