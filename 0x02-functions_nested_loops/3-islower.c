@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower(int c); - check description
+ * _islower - check description
  * Description: It print the alpabet if itupper 0 and if the lower 1
  * @c: The character it hold the alphabet
  * Return: Always 0 (Success)
