@@ -5,9 +5,19 @@
  */
 void print_rev(char *s)
 {
-	if (*s != '\0')
+	int i, j;
+
+	i = 0;
+	while (s[i] != '\0')
 	{
-		print_rev(s + 1);
-		printf("%c", *s);
+		i++;
 	}
+
+	j = i - 1;
+	while (s[j])
+	{
+		_putchar(s[j]);
+		j--;
+	}
+	_putchar('\n');
 }
