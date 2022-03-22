@@ -22,4 +22,14 @@ void puts_half(char *str)
 		}
 		putchar(10);
 	}
+	else if (x % 2 == 0)
+	{
+		x /= 2;
+
+		for (; str[x] != '\0';)
+		{
+			putchar(str[x++]);
+		}
+		putchar(10);
+	}
 }
