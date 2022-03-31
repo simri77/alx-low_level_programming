@@ -19,7 +19,7 @@ int _sqrt(int x, int i)
 }
 
 /**
- * hai - helper function, recursive steps taken
+ * by - helper function, recursive steps taken
  * @n: number given to original function is_prime_number
  * @d: incrementer divisor
  * Return: 0 if not prime, 1 if prime
