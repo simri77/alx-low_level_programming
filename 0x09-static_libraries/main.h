@@ -1,4 +1,4 @@
-#ifndf HEAD_H
+#ifndef HEAD_H
 #define HEAD_H
 
 int _putchar(char c);
