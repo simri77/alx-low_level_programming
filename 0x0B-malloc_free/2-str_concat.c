@@ -3,6 +3,10 @@
 #include <stdlib.h>
 
 /**
+ *str_concat - function that concatenates two string
+ *@s1: have the first string
+ *@s2: have the second string
+ *Return: like NULL
  */
 char *str_concat(char *s1, char *s2)
 {
