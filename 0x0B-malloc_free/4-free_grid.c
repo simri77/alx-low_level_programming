@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-/**
- *free_grid - function that frees a 2 dimensional grid
- *@grid:holds a grade
- *@height: a height
- */
-void free_grid(int **grid, int height)
-{
-	int n;
 
-	if (grid == NULL || height)
+/**
+ * free_grid - use for free a 2 dimensional array
+ * @grid: holds a grade
+ * @height: holds a height
+ */
+
+void free_grid(int **grid, int height)
+
+{
+	int i;
+
+	if (grid == NULL || height == 0)
 		return;
-	for (n = 0; n < height; n++)
-		free(grid[n]);
-		     free(grid);
+	for (i = 0; i < height; i++)
+		free(grid[i]);
+	free(grid);
 }
