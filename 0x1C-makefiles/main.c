@@ -1,5 +1,4 @@
 #include "m.h"
-
 /**
  * main - Entry point
  *
@@ -7,7 +6,6 @@
  */
 int main(void)
 {
-	print_holberton();
+	print_school();
 	return (EXIT_SUCCESS);
 }
-/* Holberton */
